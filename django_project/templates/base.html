@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}The Great Agoraz Django Blog{% endblock %}</title>
+</head>
+<body>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">blog</a>
+        <a href="#">Contact</a>
+        <a href="#">Career</a>
+    </nav>
+
+    <br>
+    <hr>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <br>
+    <hr>
+
+    {% block footer %}
+        This is footer
+    {% endblock %}
+
+</body>
+</html>
